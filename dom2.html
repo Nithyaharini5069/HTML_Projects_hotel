@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+              body{
+         background-image: url("htl.jpg");
+     }
+        .outer{
+            background-color: blanchedalmond;
+            height:360px;
+            width:400px;
+            position: relative;
+            top: 150px;
+            left: 350px;
+            border-radius: 10px;
+            box-shadow: 5px 5px 5px green;
+        }
+        button{
+            position: relative;
+            top: 160px;
+            left: 164px;
+            padding:5px;
+        }
+        .name{
+            position: relative;
+            left:80px;
+            top:80px;
+        }
+        .psw{
+            position: relative;
+            left:80px;
+            top:100px;
+        }
+        .but1{
+             position: relative;
+            left:120px;
+            top:80px;
+            padding: 5px;
+        }
+        .but2{
+            position: relative;
+            left:98px;
+            top:100px;
+            padding: 5px;
+        }
+         .but3{
+            position: relative;
+            left:108px;
+            top:120px;
+            padding: 5px;
+        }
+         .but4{
+            position: relative;
+            left:80px;
+            top:140px;
+            padding: 5px;
+        }
+        .Number{
+            position: relative;
+            left:80px;
+            top:120px;
+        }
+        .date{
+            position: relative;
+            left:80px;
+            top:135px;}
+        .secouter{
+            background-color:skyblue;
+            height:360px;
+            width:400px;
+            position: relative;
+            bottom:210px;
+            left: 850px;
+            border-radius: 10px;
+            box-shadow: 5px 5px 5px green;
+        }
+    </style>
+</head>
+<body>
+    <div class="outer">
+    <form>
+        <label class="name">Name</label>
+        <input type="text" class="but1" id="username"/><br>
+        <label class="psw">Password</label>
+        <input type="password" class="but2" id="password"/><br>
+        <label class="Number">Number</label>
+        <input type="text" class="but3" id="number"/><br>
+        <label class="date">date of Birth</label>
+        <input type="date" class="but4" id="date"/><br>
+         <button type="button" id="loginBtn">Login</button>
+    </div>
+    </form>
+    <div class="secouter"></div>
+    <script>
+        let btn=document.querySelector("#loginBtn");
+        btn.addEventListener("click",function(){
+        let div = document.querySelector(".secouter")
+        let text = document.querySelector("#username").value;    
+        let Password = document.querySelector("#password").value;
+        let number = document.querySelector("#number").value;
+        let date = document.querySelector("#date").value;
+
+        div.innerHTML =
+               "<p><b>Name:</b> " + text + "</p>" +
+                "<p><b>Password:</b> " + Password+ "</p>" +
+                "<p><b>Number:</b> " + number + "</p>" +
+                "<p><b>Date of Birth:</b> " + date + "</p>";
+        });
+    </script>
+</body>
+</html>

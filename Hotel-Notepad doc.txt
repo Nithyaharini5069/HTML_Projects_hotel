@@ -1,0 +1,395 @@
+//homepage//
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>HomePage</title>
+    <style>
+        .outer{
+         width:1800px;
+         height:900px;
+         background-color: white;
+         position: relative;
+        }
+        .img{
+            background-image: url("htl.jpg");
+            background-size: cover	;
+            background-position: center;
+            background-repeat: no-repeat;
+            width:100%;
+            height: 74%;
+            position: absolute;
+            margin-top: 40px;
+        }
+        .top{
+            color: black; 
+        }
+        .top1{
+            position:relative;
+            left: 800px;
+            bottom: 45px;
+        }
+        .top2{
+            position:relative;
+            left: 900px;
+            bottom: 64px;
+        }
+        .top3{
+            position:relative;
+            left: 1000px;
+            bottom: 82px;
+        }
+        .top4{
+            position:relative;
+            left: 1100px;
+            bottom: 100px;
+        }
+        .top5{
+            position:relative;
+            left: 1210px;
+            bottom: 118px;
+        }
+        .top6{
+            position:relative;
+            left: 1300px;
+            bottom: 138px;
+        }
+        .form{
+            background-color: lightblue;
+            width:300px;
+            height: 300px;
+            position: absolute;
+            top: 150px;
+            left: 90px;
+            border-left: 5px solid pink;
+        }
+        h2{
+            text-align: center;
+        }
+        .label1{
+           position: relative;
+           left:10px;
+          top:10px;
+        }   
+        .label2{
+            margin-left:10px;
+        }
+        input{
+            margin-bottom: 30px;
+            width:260px;
+            padding: 5px;
+             background-color: lightblue; 
+        }
+        button{
+             margin-bottom: 30px;
+            width:150px;
+            padding: 5px;
+             background-color: pink; 
+             margin-left: 60px;
+             border-radius: 20px;
+        }
+        .keto{
+            width:5px;
+            height:5px;
+            position: relative;
+            bottom:90px;
+            left:310px;
+        }
+    </style>
+</head>
+<body>
+    <div class="outer">
+        <div class="keto">
+            <img src="./keto.png">
+        </div>
+     <div class="img">
+<div class="top">
+    <ul type="none">
+      <b>
+        <li class="top1">Home</a></li>
+        <li class="top2"><a href="about.html">About</a></li>
+        <li class="top3"><a href="homenew.html">Room</a></li>
+        <li class="top4"><a href="task3.html">Gallery</a></li>
+        <li class="top5"><a href="dom2.html">Contact</a></li>
+      </b>
+    </ul>
+</div>
+     <div class="form">
+        <h2>BOOK A ROOM ONLINE</h2>
+        <form>
+        <div class="label1">
+        <label><b>Mail<b></label><br>
+        <input type="email"><br></div>
+        <div class="label2">
+        <label><b>PhoneNo</b></label><br>
+        <input type="text"></div>
+        <button onclick="alert('Thanks for Visiting Our Hotel')">Book Now</button>
+        </form>
+     </div>
+     </div> 
+    </div>
+</body>
+</html>
+
+//about page//
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us</title>
+    <style>
+        .outer{
+            width:900px;
+            height:900px;
+            margin-left: 100px;
+        }
+    .head{
+        background-color: green;
+        width:1500px;
+        height:50px;
+    }
+    </style>
+</head>
+<body>
+<div class="section">
+    <div class="head">
+    <h2>Welcome to Our Hotel</h2></div>
+    <p>
+        Our hotel offers the perfect blend of comfort and luxury for your stay. 
+        We are committed to providing excellent service and unforgettable experiences.
+    </p>
+    <p>
+        Enjoy our cozy rooms, delicious food, and relaxing environment. 
+        Whether you are traveling for business or leisure, we ensure a memorable stay.
+    </p>
+</div>
+</body>
+</html>
+
+//Rooms//
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+       .outer{
+       width: 900px;
+       height:900px ;
+       display: flex;
+       flex-direction:row;
+       justify-content: space-around;
+       align-items: center;
+       }
+      .outer>div{
+        width:200px;
+        height:200px;
+        background-color:#9acd32;
+        border-radius: 10px;
+        text-align: center;
+        position: relative;
+        left: 310px;
+        bottom: 50px;
+      }  
+     body{
+         background-image: url("htl.jpg");
+     }
+    </style>
+</head>
+<body>
+    <div class="outer">
+        <div>
+           <h3>Single Bed Room</h3>
+            <p>Price:RS.10,000/1 Night</p>
+            <button onclick="alert('Booking Single Bed Room!')">Book Now</button>
+        </div>
+        <div>
+            <h3>Double Bed Room</h3>
+            <p>Price:RS.30,000/1 Night</p>
+            <button onclick="alert('Booking Single Bed Room!')">Book Now</button>
+        </div>
+        <div>
+            <h3>AC Single Bed Room</h3>
+            <p>Price:RS.20,000/1 Night</p>
+            <button onclick="alert('Booking Single Bed Room With Ac!')">Book Now</button>
+        </div>
+         <div>
+            <h3>AC Double Bed Room</h3>
+            <p>Price:RS.40,000/1 Night</p>
+            <button onclick="alert('Booking Double Bed Room With Ac!')">Book Now</button>
+        </div>
+    </div>
+</body>
+</html>
+
+
+//images gallery//
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Document</title>
+    <style>
+        .image{
+            background-color:#84b522;
+            width:600px;
+            height:350px;
+            position: relative;
+            margin-left: 400px;
+            margin-top: 200px;
+        }
+        .pic1,.pic2,.pic3,.pic4,.pic5,.pic6,.pic7,.pic8{
+            margin-top: 20px;
+            margin-left: 40px;
+        }
+        .outer{
+            display:flex;
+            flex-wrap: wrap; 
+        }
+        .pic1:hover,.pic2:hover,.pic3:hover,.pic4:hover,.pic5:hover,.pic6:hover,.pic7:hover,.pic8:hover{
+          transform: scale(2,3);
+        }
+         body{
+         background-image: url("htl.jpg");
+     }
+    </style>
+</head>
+<body>
+    <div class="image">
+    <h2 style="text-align:center; color:white;margin-bottom: 20px;">Image Gallery</h2>
+    <div class="outer">
+    <div class="pic1">
+    <img src="./room1.jpg"  style="width:100px; height: 100px;"\></div>
+    <div class="pic2">
+    <img src="./room2.jpg"  style="width:100px; height: 100px;"\></div>
+    <div class="pic3">
+    <img src="./buffet.jpg"  style="width:100px; height: 100px;"\></div>
+    <div class="pic4">
+    <img src="./swiming.jpg"  style="width:100px; height: 100px;"\></div>
+    <div class="pic5">
+    <img src="./gym.jpg"  style="width:100px; height: 100px;"\></div>
+    <div class="pic6">
+    <img src="./play.jpg"  style="width:100px; height: 100px;"\></div>
+    <div class="pic7">
+    <img src="./parking.jpg"  style="width:100px; height: 100px;"\></div>
+    <div class="pic8">
+    <img src="./garden.jpg"  style="width:100px; height: 100px;"\></div></div>
+    </div>
+</body>
+</html>
+
+//contact//
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+              body{
+         background-image: url("htl.jpg");
+     }
+        .outer{
+            background-color: blanchedalmond;
+            height:360px;
+            width:400px;
+            position: relative;
+            top: 150px;
+            left: 350px;
+            border-radius: 10px;
+            box-shadow: 5px 5px 5px green;
+        }
+        button{
+            position: relative;
+            top: 160px;
+            left: 164px;
+            padding:5px;
+        }
+        .name{
+            position: relative;
+            left:80px;
+            top:80px;
+        }
+        .psw{
+            position: relative;
+            left:80px;
+            top:100px;
+        }
+        .but1{
+             position: relative;
+            left:120px;
+            top:80px;
+            padding: 5px;
+        }
+        .but2{
+            position: relative;
+            left:98px;
+            top:100px;
+            padding: 5px;
+        }
+         .but3{
+            position: relative;
+            left:108px;
+            top:120px;
+            padding: 5px;
+        }
+         .but4{
+            position: relative;
+            left:80px;
+            top:140px;
+            padding: 5px;
+        }
+        .Number{
+            position: relative;
+            left:80px;
+            top:120px;
+        }
+        .date{
+            position: relative;
+            left:80px;
+            top:135px;}
+        .secouter{
+            background-color:skyblue;
+            height:360px;
+            width:400px;
+            position: relative;
+            bottom:210px;
+            left: 850px;
+            border-radius: 10px;
+            box-shadow: 5px 5px 5px green;
+        }
+    </style>
+</head>
+<body>
+    <div class="outer">
+    <form>
+        <label class="name">Name</label>
+        <input type="text" class="but1" id="username"/><br>
+        <label class="psw">Password</label>
+        <input type="password" class="but2" id="password"/><br>
+        <label class="Number">Number</label>
+        <input type="text" class="but3" id="number"/><br>
+        <label class="date">date of Birth</label>
+        <input type="date" class="but4" id="date"/><br>
+         <button type="button" id="loginBtn">Login</button>
+    </div>
+    </form>
+    <div class="secouter"></div>
+    <script>
+        let btn=document.querySelector("#loginBtn");
+        btn.addEventListener("click",function(){
+        let div = document.querySelector(".secouter")
+        let text = document.querySelector("#username").value;    
+        let Password = document.querySelector("#password").value;
+        let number = document.querySelector("#number").value;
+        let date = document.querySelector("#date").value;
+
+        div.innerHTML =
+               "<p><b>Name:</b> " + text + "</p>" +
+                "<p><b>Password:</b> " + Password+ "</p>" +
+                "<p><b>Number:</b> " + number + "</p>" +
+                "<p><b>Date of Birth:</b> " + date + "</p>";
+        });
+    </script>
+</body>
+</html>

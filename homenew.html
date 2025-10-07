@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+       .outer{
+       width: 900px;
+       height:900px ;
+       display: flex;
+       flex-direction:row;
+       justify-content: space-around;
+       align-items: center;
+       }
+      .outer>div{
+        width:200px;
+        height:200px;
+        background-color:#9acd32;
+        border-radius: 10px;
+        text-align: center;
+        position: relative;
+        left: 310px;
+        bottom: 50px;
+      }  
+     body{
+         background-image: url("htl.jpg");
+     }
+    </style>
+</head>
+<body>
+    <div class="outer">
+        <div>
+           <h3>Single Bed Room</h3>
+            <p>Price:RS.10,000/1 Night</p>
+            <button onclick="alert('Booking Single Bed Room!')">Book Now</button>
+        </div>
+        <div>
+            <h3>Double Bed Room</h3>
+            <p>Price:RS.30,000/1 Night</p>
+            <button onclick="alert('Booking Single Bed Room!')">Book Now</button>
+        </div>
+        <div>
+            <h3>AC Single Bed Room</h3>
+            <p>Price:RS.20,000/1 Night</p>
+            <button onclick="alert('Booking Single Bed Room With Ac!')">Book Now</button>
+        </div>
+         <div>
+            <h3>AC Double Bed Room</h3>
+            <p>Price:RS.40,000/1 Night</p>
+            <button onclick="alert('Booking Double Bed Room With Ac!')">Book Now</button>
+        </div>
+    </div>
+</body>
+</html>

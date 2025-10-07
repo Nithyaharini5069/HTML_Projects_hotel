@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Document</title>
+    <style>
+        .image{
+            background-color:#84b522;
+            width:600px;
+            height:350px;
+            position: relative;
+            margin-left: 400px;
+            margin-top: 200px;
+        }
+        .pic1,.pic2,.pic3,.pic4,.pic5,.pic6,.pic7,.pic8{
+            margin-top: 20px;
+            margin-left: 40px;
+        }
+        .outer{
+            display:flex;
+            flex-wrap: wrap; 
+        }
+        .pic1:hover,.pic2:hover,.pic3:hover,.pic4:hover,.pic5:hover,.pic6:hover,.pic7:hover,.pic8:hover{
+          transform: scale(2,3);
+        }
+         body{
+         background-image: url("htl.jpg");
+     }
+    </style>
+</head>
+<body>
+    <div class="image">
+    <h2 style="text-align:center; color:white;margin-bottom: 20px;">Image Gallery</h2>
+    <div class="outer">
+    <div class="pic1">
+    <img src="./room1.jpg"  style="width:100px; height: 100px;"\></div>
+    <div class="pic2">
+    <img src="./room2.jpg"  style="width:100px; height: 100px;"\></div>
+    <div class="pic3">
+    <img src="./buffet.jpg"  style="width:100px; height: 100px;"\></div>
+    <div class="pic4">
+    <img src="./swiming.jpg"  style="width:100px; height: 100px;"\></div>
+    <div class="pic5">
+    <img src="./gym.jpg"  style="width:100px; height: 100px;"\></div>
+    <div class="pic6">
+    <img src="./play.jpg"  style="width:100px; height: 100px;"\></div>
+    <div class="pic7">
+    <img src="./parking.jpg"  style="width:100px; height: 100px;"\></div>
+    <div class="pic8">
+    <img src="./garden.jpg"  style="width:100px; height: 100px;"\></div></div>
+    </div>
+</body>
+</html>
